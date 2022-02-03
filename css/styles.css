@@ -1,0 +1,276 @@
+body {
+    background-color: rgba(138, 237, 255, 0.466);
+    /* background-image: url(../zoe-bye.gif);*/
+    height: 100%;
+    padding: 10px;
+}
+
+/* Aurkibidea */
+#caja1 {
+    background-color: white;
+    grid-area: h;
+}
+#menu {
+    float: right;
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+/* Gorputza */
+#caja2 {
+    grid-area: i;
+    margin-top: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:0px;
+}
+
+#caja3 {
+    background-color: rgb(63, 165, 168);
+    grid-area: c;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 90px;
+    border: solid black 3px;
+    padding: 15px; 
+}
+
+#caja4 {
+    background-color: rgba(3, 189, 158, 0.822);
+    grid-area: k;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 90px;
+    border: solid black 3px;
+    padding: 10px;
+}
+
+#caja5 {
+   /* background-color: crimson; */
+    grid-area: l;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 85px;
+    /* border: solid black 3px; */
+    align-items: center ;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(234, 0, 255, 0.239);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    grid-area: m; 
+    margin-bottom: -122px;
+    
+}
+
+/* Hasiera */
+#edukia {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "h h h h"
+        "i i i i"
+        "i i i i"
+        "c k l l"
+        "m m m m"
+    ;
+}
+
+/* Gure-Gunea */
+#edukiaGG {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "h h h h"
+        "i i i i"
+        "i i i i"
+        "c c l l"
+        "m m m m"
+    ;
+}
+
+#elektronika_imagen {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    border: 5px;
+}
+
+#tx {
+    float: left;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+/* Menua */
+.navegacion {
+    width: 100%;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul {
+    list-style: none;
+
+}
+
+.menu>li {
+    position: static;
+    display: inline-block;
+    border: solid rgba(0, 0, 0, 0.157) 1px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #333333;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu {
+    position: absolute;
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+#erdi-maila {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    border: 2px solid black;
+}
+#erdi{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 395px;
+}
+
+/*argazkia*/
+
+#goi-maila {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#goi{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 395px;
+}
+
+#linkgoi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+#egunkari{
+    width: 50%s;
+}
+#mapa {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border:solid black 3px;
+}
+
+#listaerdi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+#listagoi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+#Main_menu {
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+#txurditext{
+    font-size: 30;
+}
+
+#img1 {
+    width: 90%;
+}
+
+#img2 {
+    width: 90%;
+}
+
+#img3 {
+    width: 90%;
+}
+
+#img4 {
+    width: 90%;
+} 
+
+#img5 {
+    width: 90%;
+}
+
+#img6 {
+    width: 90%;
+}
+
+#img7 {
+    width: 90%;
+}
+
+#img8 {
+    width: 90%;
+}
+
+#img9 {
+    width: 90%;
+}
+
+#img10 {
+    width: 90%;
+}
